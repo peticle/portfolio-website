@@ -28,6 +28,7 @@ exports.css = css;
 exports.html = html;
 exports.default = function() {
     watch('app/*.pug', html);
+    watch('app/view/*.pug', html);
     watch('app/scss/*.scss', css);
     watch('app/js/*.js', js);
 }
