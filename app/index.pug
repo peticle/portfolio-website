@@ -4,11 +4,55 @@ section#s-home(class='container')
     div(class='row align-items-center')
         div(class='col')
             h2#home-title(class='text-center')
-            h3#home-desc(class='text-center')
+            h3#home-desc(class='text-center p-1')
 
 section#s-aboutme(class='w-75 p-3 mx-auto')
     h2(class='text-center') About me
     img(src='https://s2.qwant.com/thumbr/0x380/f/a/bb0d5ff42f20c9f29569567254ef175c2f87896ec85046685c914908a38c07/default_profile_4.png?u=http%3A%2F%2Fwww.thesocialmediahat.com%2Fsites%2Fdefault%2Ffiles%2Fdefault_profile_4.png&q=0&b=1&p=0&a=1' class='rounded mx-auto d-block w-50 p-3' alt='Picture of Clément Petignat')
     p(class='text-justify') Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed nisl non sapien lobortis fringilla sit amet sit amet ipsum. Nulla molestie odio eu vestibulum vulputate. Phasellus id aliquet ligula. Praesent a dui ac libero varius aliquet ut id metus. Ut tincidunt turpis pellentesque tristique dignissim. Curabitur facilisis vitae diam id laoreet. Nullam venenatis massa a varius fermentum. Aenean ornare nulla eu lectus aliquet gravida. Nullam eu dapibus dui.
+
+section#s-resume(class='w-100 p-3 mx-auto')
+
+    h2(class='text-center') Resume
+
+    h3 Diplomas / Studies :
+    ul(class='list-group w-100 p-3')
+        li(class='list-group-item')
+            h4 CFC orientation informatique d'entreprise
+            small Ecole des métiers techniques
+        li(class='list-group-item active')
+            h4 Maturité professionelle technique
+            small Ecole des métiers techniques
+
+    h3 IT Knowledges :
+    div(class='row')
+
+        div(class='col-sm-6 p-1')
+            div(class='card w-75 mx-auto')
+                img(src='' class='card-img-top' alt='')
+                div(class='card-body')
+                    h4 Desktop
+                    span C++, C#, Java
+
+        div(class='col-sm-6 p-1')
+            div(class='card w-75 mx-auto')
+                img(src='' class='card-img-top' alt='')
+                div(class='card-body')
+                    h4 Web
+                    span HTML5, CSS3, JS, jQuery, PHP, NodeJS, React, ...
+
+        div(class='col-sm-6 p-1')
+            div(class='card w-75 mx-auto')
+                img(src='' class='card-img-top' alt='')
+                div(class='card-body')
+                    h4 Databases
+                    span SQL, SQL Server, PL/SQL
+
+        div(class='col-sm-6 p-1')
+            div(class='card w-75 mx-auto')
+                img(src='' class='card-img-top' alt='')
+                div(class='card-body')
+                    h4 Support
+                    span PC building / repairing, server managing, ...
 
 include view/footer.pug
