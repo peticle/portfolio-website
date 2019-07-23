@@ -1,14 +1,42 @@
+$font-family-monospace: 'BioRhyme';
+
 * {
     box-sizing: border-box;
 }
 
+header nav {
+    background: rgba(0, 0, 0, 0.7);
+}
+
 #s-home {
 
-    background: lightgray;
+    background: url(../img/background.jpg) no-repeat center fixed;
+    background-size: cover;
     height: 100vh;
 
     .row {
-        height: 90%;
+        height: 100%;
+    }
+
+    > div {
+
+        background: rgba(0, 0, 0, 0.6);
+
+        div h2,
+        div h3 {
+            color: #f1f2f6;
+            font-family: 'BioRhyme', arial, sans-serif !important;
+        }
+    }
+}
+
+#s-resume {
+
+    background: #1e272e;
+
+    h2,
+    h3 {
+        color: #f1f2f6;
     }
 }
 
@@ -27,6 +55,16 @@
     }
 }
 
-footer p i {
-    color: #e55039;
+footer {
+
+    background: #1e272e;
+
+    p {
+
+        color: #f1f2f6;
+
+        i {
+            color: #e55039;
+        }
+    }
 }
